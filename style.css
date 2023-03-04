@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(7, 131, 90);
+    margin: 20px;
+    justify-content: space-between;
+}
+
+h1 {
+   background-image: linear-gradient(45deg, blue, yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    padding: 10;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.rodape {
+    color: #3d3c3c;
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+nav {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
