@@ -5,10 +5,16 @@ body {
 }
 
 h1 {
-   background-image: linear-gradient(45deg, blue, yellow);
+    background-color: black;
+    color: #eeeeee;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100px;
+}
+
+h3 {
+    color: #eeeeee;
 }
 
 img {
@@ -21,7 +27,7 @@ img {
 }
 
 .rodape {
-    color: #3d3c3c;
+    color: #0c0b0b;
     border-top: 1px solid #eeeeee;
     text-align: center;
     height: 20px;
@@ -33,12 +39,10 @@ img {
 
 nav {
     display: flex;
-
-    justify-content: space-between;
 }
 
 a {
-    color: blue;
+    color: rgb(243, 243, 247);
     text-decoration: none;
     margin: auto;
 }
