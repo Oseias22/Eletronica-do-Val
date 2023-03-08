@@ -1,60 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eletronica do Val</title>
     <link rel="stylesheet" href="style.css">
-
-    <h1>Assistência Técnica do Val</h1>
-
-    <hr>
+    <title>Formulário</title>
 </head>
 
 <body>
+    <div class="container">
+        <div class="header">
+            <h2>criar uma conta</h2>
+        </div>
 
-    <nav>
-        <a
-            href="https://assitenciatecnica.com.br/?gclid=CjwKCAiAu5agBhBzEiwAdiR5tCXV8W7R3MnzQf4uhOeGBxNyvFALcMhD-kHkAvOiGryDeWD_LbH-pRoCukMQAvD_BwE">Suporte</a>
-        <a
-            href="https://senaies.com.br/servicos-para-empresas/tecnologia-e-inovacao/servicos-tecnicos-especializados/">Serviços</a>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Nome de usuário</label>
+                <input type="text" id="username" placeholder="digite o seu nome" />
+                <small>mensagem de erro</small>
+            </div>
 
-        <a href="https://makebybella.com.br/taiffmq-beauty">Marcas</a>
-        <a
-            href="https://www.glassdoor.com.br/Carreira/t%C3%A9cnico-de-servi%C3%A7os-carreira_KO0,19.htm#:~:text=Os%20t%C3%A9cnicos%20de%20servi%C3%A7os%2C%20geralmente,e%20diagnosticar%20problemas%20comuns%20rapidamente.">Entrar</a><br><br>
-    </nav>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="digite o seu email" />
+                <small>mensagem de erro</small>
+            </div>
 
-    <input type="radio" name="serviços">Vender
-    <input type="radio" name="serviços">Conserto
-    <input type="radio" name="serviços">Comprar<br>
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="text" id="password" placeholder="digite sua senha" />
+                <small>mensagem de erro</small>
+            </div>
 
-    <h3>Qual serviço está precisando?</h3><br>
+            <div class="form-control">
+                <label for="password-confirmation">confirmação de senha</label>
+                <input type="text" id="password-confirmation" placeholder="digite a senha novamente" />
 
-    <img src="assets/tvs2.jpg"></img>
-    <img src="assets/tvs1.jpg"></img>
-    <img src="assets/tvs3.jpg"></img>
-    <img src="assets/tvs4.jpg"></img>
-    <img src="assets/tvs5.jpg"></img>
-    <img src="assets/tvs6.jpg"></img>
-    <img src="assets/tvs7.jpg"></img>
-    <img src="assets/tvs8.jpg"></img>
-    <img src="assets/tvs9.jpg"></img>
-    <img src="assets/1.jpg"></img>
-    <img src="assets/2.png"></img>
-    <img src="assets/3.webp"></img>
-    <img src="assets/4.jpg"></img>
-    <img src="assets/5.webp"></img>
-    <img src="assets/6.png"></img>
-    <img src="assets/7.jpg"></img>
-    <img src="assets/8.jpg"></img>
-    <img src="assets/9.jpg"></img>
-    <img src="assets/2.jpg"></img>
-    <img src="assets/3.jpg"></img>
+            </div>
 
+            <button type="submit ">Enviar</button>
+        </form>
+    </div>
+    <script>
+        src = "https://kit.fontawesome.com/f9e19193d6.js"
+        crossorigin = "anonymous"
+    </script>
+    <script src="javaScript.js"></script>
 </body>
-<footer class="rodape">
-    @ 2023 Todas as imagens estão com todos os direitos reservados</footer>
 
 </html>
