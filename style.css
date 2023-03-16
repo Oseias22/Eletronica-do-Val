@@ -1,6 +1,10 @@
 body {
-    background-color: rgb(92, 100, 97);
-    margin: 25px;  
+    background-color: rgb(184, 248, 224);
+    margin: 25px;
+}
+
+hr {
+    filter: drop-shadow(8px 8px 4px rgb(10, 10, 10));
 }
 
 h1 {
@@ -19,11 +23,13 @@ h1 {
 }
 
 img {
+    display: inline-block;
     border-radius: 10px;
     width: 250px;
     height: 250px;
     cursor: pointer;
     margin: 25px;
+    filter: drop-shadow(8px 8px 4px rgb(48, 33, 33));
 }
 
 #destaque {
@@ -34,16 +40,15 @@ img {
     margin-top: 0px;
 }
 
-a, h3 {
-    
-    color: rgb(243, 243, 247);
-    text-decoration: none;
-  
+h3 {
+    color: rgb(9, 9, 151);
+    filter: drop-shadow(8px 8px 4px rgb(8, 2, 2));
 }
 
-div {
-    color: white;
-    margin-left: 35px;
+a {
+    text-decoration: none;
+    color: rgb(4, 4, 233);
+    filter: drop-shadow(8px 8px 2px black);
 }
 
 .rodape {
