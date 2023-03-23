@@ -7,7 +7,6 @@ body {
     position: absolute;
     width: 250px;
     height: 80px;
-
 }
 
 header {
@@ -32,6 +31,7 @@ nav ul {
 	justify-content: space-between;
     filter: drop-shadow(8px 8px 4px rgb(8, 2, 2));
 }
+
 a {
     text-decoration: none;
     color: blue
