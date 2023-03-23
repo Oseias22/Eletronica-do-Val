@@ -1,19 +1,51 @@
 body {
-    background-color: rgb(184, 248, 224);
+    background-color: rgb(188, 241, 183);
     margin: 25px;
 }
 
+#destaque {
+    position: absolute;
+    width: 250px;
+    height: 80px;
+
+}
+
+header {
+    padding: 0%;
+    background-color: black;
+    color: #f7f1f1;
+    height: 80px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 8px 8px 4px #393b3a;
+    background-image: linear-gradient(45deg, black, rgb(94, 199, 94));
+}
+
 hr {
-    filter: drop-shadow(8px 8px 4px rgb(10, 10, 10));
+    box-shadow: 8px 8px 4px #393b3a;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+    filter: drop-shadow(8px 8px 4px rgb(8, 2, 2));
+}
+a {
+    text-decoration: none;
+    color: blue
+}
+
+input {
+    margin: 20px;
+    filter: drop-shadow(8px 8px 2px rgb(134, 123, 123));
 }
 
 h1 {
-    background-color: black;
-    color: #f7f1f1;
-    height: 100px;
-    text-align: center;
-    border-radius: 10px;
-    background-image: linear-gradient(45deg, black, rgb(94, 199, 94));
+    margin: 25px;
+    color: rgb(9, 9, 151);
+    filter: drop-shadow(8px 8px 4px rgb(8, 2, 2));
 }
 
 .eletronicos .imagem {
@@ -36,33 +68,6 @@ div {
     margin-top: 10px;
     font-weight: 800px;
     filter: drop-shadow(8px 8px 4px rgb(39, 24, 24));
-}
-
-#destaque {
-    position: absolute;
-    width: 250px;
-    height: 100px;
-    float: left;
-    margin-top: 0px;
-}
-
-input {
-    margin: 20px;
-    filter: drop-shadow(8px 8px 2px rgb(134, 123, 123));
-}
-
-h3 {
-    margin: 25px;
-    color: rgb(9, 9, 151);
-    filter: drop-shadow(8px 8px 4px rgb(8, 2, 2));
-}
-
-nav, a {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    color: rgb(4, 4, 233);
-    filter: drop-shadow(8px 8px 2px rgb(59, 58, 58));
 }
 
 .rodape {
