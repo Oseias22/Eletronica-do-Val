@@ -1,1 +1,2 @@
-# site-dei
+# Nesse projeto estarei praticando!
+(em constante atualização)
