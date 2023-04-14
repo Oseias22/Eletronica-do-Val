@@ -1,2 +1,1 @@
-# Nesse projeto estarei praticando!
-(em constante atualização)
+# Eletronica (em construção)
