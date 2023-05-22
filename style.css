@@ -17,38 +17,46 @@ header {
     font-size: 40px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 8px 8px 4px #393b3a;
-    background-image: linear-gradient(45deg, black, rgb(94, 199, 94));
+    background-image: linear-gradient(45deg, black, green);
 }
 header:hover{
-    box-shadow: 4px 8px 8px 10px rgb(99, 96, 96);
-}
-
-hr {
-    box-shadow: 8px 8px 4px #393b3a;
+    box-shadow: 4px 8px 8px 10px rgb(12, 2, 158);
+    transition: box-shadow 1s;
 }
 
 nav ul {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-    filter: drop-shadow(8px 8px 4px rgb(8, 2, 2));
 }
 
-a {
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu> a {
+    margin: 0 01%;
     text-decoration: none;
-    color: blue
+    color: black;
 }
 
-input {
-    margin: 20px;
-    filter: drop-shadow(8px 8px 2px rgb(134, 123, 123));
+.menu>a::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 0%;
+    transition: all .4s;
+    border-bottom: 2px solid black;
+}
+
+.menu>a:hover::after {
+    width: 100%;
 }
 
 h1 {
-    margin: 25px;
-    color: rgb(9, 9, 151);
-    filter: drop-shadow(8px 8px 4px rgb(8, 2, 2));
+    margin: 20px;
+    color: black;
 }
 
 .eletronicos .imagem {
@@ -64,16 +72,16 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    filter: drop-shadow(8px 8px 4px rgb(173, 170, 170));
+
 }
 .imagem:hover {
-    box-shadow: 8px 8px 15px 12px rgba(65, 53, 53, 0.25);
+    box-shadow: 8px 8px 15px rgb(85, 85, 83);
+    transition: box-shadow 01s;
 }
 
 div {
     margin-top: 10px;
     font-weight: 800px;
-    filter: drop-shadow(8px 8px 4px rgb(68, 67, 67));
 }
 
 .rodape {
@@ -85,5 +93,4 @@ div {
     margin: auto;
     margin-top: 20px;
     width: 90%;
-    filter: drop-shadow(8px 8px 2px black);
 }
