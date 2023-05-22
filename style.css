@@ -17,10 +17,10 @@ header {
     font-size: 40px;
     text-align: center;
     border-radius: 10px;
-    background-image: linear-gradient(45deg, black, green);
+    background-image: linear-gradient(45deg, black, rgb(94, 199, 94));
 }
 header:hover{
-    box-shadow: 4px 8px 8px 10px rgb(12, 2, 158);
+    box-shadow: 4px 8px 8px 10px rgb(99, 96, 96);
     transition: box-shadow 1s;
 }
 
